@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qr-code-component</title>
+</head>
+<style rel="stylesheet">
+    /*Font used in the design*/
+    @font-face {
+        font-family: Outfit;
+        src: url(Outfit-VariableFont_wght.ttf);
+    }
+    body{
+        background-color: hsl(212, 45%, 89%);
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        background-color: hsl(0, 0%, 100%);
+        height: fit-content;
+        width: fit-content;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    p{
+        font-size: 15px;
+        font-family: Outfit;
+        text-align: center;
+    }
+    p:first-of-type{
+        font-weight: 700;
+        color: hsl(218, 44%, 22%);
+    }
+    p:last-of-type{
+        font-weight: 400;
+        color: hsl(220, 15%, 55%);
+    }
+</style>
+<body>
+    <div class="main">
+        <img src="/images/image-qr-code.png" height="300" width="300"/>
+        <p>Improve your front-end<br/>skills by building projects</p>
+        <p>Scan the qr code to visit Frontend<br/>Mentor and take your coding skills to<br/>the next level</p>
+    </div>
+</body>
+</html>
