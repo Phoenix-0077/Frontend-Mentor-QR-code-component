@@ -8,24 +8,24 @@
 </head>
 <style rel="stylesheet">
     /*Font used in the design*/
-    @font-face {
+    @font-face{
         font-family: Outfit;
         src: url(Outfit-VariableFont_wght.ttf);
     }
     body{
         background-color: hsl(212, 45%, 89%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .main{
-        display: flex;
-        justify-content: center;
         background-color: hsl(0, 0%, 100%);
-        height: fit-content;
-        width: fit-content;
         padding: 20px;
         border-radius: 10px;
+        height: fit-content;
+        width: fit-content;
     }
     p{
-        font-size: 15px;
         font-family: Outfit;
         text-align: center;
     }
@@ -34,6 +34,7 @@
         color: hsl(218, 44%, 22%);
     }
     p:last-of-type{
+        font-size: 15px;
         font-weight: 400;
         color: hsl(220, 15%, 55%);
     }
