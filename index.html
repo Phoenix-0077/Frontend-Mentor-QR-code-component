@@ -14,16 +14,15 @@
     }
     body{
         background-color: hsl(212, 45%, 89%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     .main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         background-color: hsl(0, 0%, 100%);
         padding: 20px;
         border-radius: 10px;
-        height: fit-content;
-        width: fit-content;
     }
     p{
         font-family: Outfit;
@@ -41,7 +40,7 @@
 </style>
 <body>
     <div class="main">
-        <img src="/images/image-qr-code.png" height="300" width="300"/>
+        <img src="/images/image-qr-code.png" height="250" width="250"/>
         <p>Improve your front-end<br/>skills by building projects</p>
         <p>Scan the qr code to visit Frontend<br/>Mentor and take your coding skills to<br/>the next level</p>
     </div>
